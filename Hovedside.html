@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="hovedside.css">
+    <link rel="stylesheet" href="global.css">
 </head>
 <body> 
-    <video autoplay muted loop playsinline id="bg-video">
-        <source src="videoer/4K Nature Documentary Film - Maui, Hawaii - Short Preview Video - 4K Relaxation Channel (1080p, h264, youtube).mp4" type="video/mp4">
-    </video>
     <header>
-        <div class="tittel">
-            <h2>Hawaii travel guide</h2>
-        </div>
-        <div class="meny">
+        <div class="top">
             <a href="about.html" class="meny1">About</a>
-            <a href="gallery.html" class="meny1">gallery</a>
+            <h2 class="tittel">Hawaii travel guide</h1>
+            <a href="gallery.html" class="meny1">Gallery</a>
         </div>
 
 
@@ -24,16 +20,27 @@
     <main>
 
         <div class="containerH">
-            <div class="boks1">
-                <h2>Info</h2>
-                <p>Bla bla bla, noe viktig, bla bla bla noe mer viktig</p>
+
+             <div class="boks">
+                
+                <div class="imagewrapper"><img src="Bilder/Hotelshawaii.webp" alt=""></div>
+                <div class="textoverlay"> 
+                    <a href="hotellside.html" class="hovedsidebuttons"><h1>Reserve your stay</h1></a>
+                </div>
             </div>
-            <div class="boks">Tekst</div>
             <div class="boks">
-                <h2>Reserve</h2>
-                <a href="hotellside.html" class="hotellsbutton">Hotells</a>
+                <div class="imagewrapper"><img src="Bilder/Attractionshawaii.jpg" alt=""></div>
+                <div class="textoverlay">
+                    <a href="activities.html" class="hovedsidebuttons"><h1>Attractions</h1></a>
+                </div>
             </div>
-            <div class="boks">Tekst</div>
+
+            <div class="boks">
+                <div class="imagewrapper"><img src="Bilder/hawaiitours.jpg" alt=""></div>
+                <div class="textoverlay">
+                    <a href="tours.html" class="hovedsidebuttons"><h1>Book tours</h1></a>
+                </div>
+            </div>
         </div>
     </main>
     <footer></footer>
