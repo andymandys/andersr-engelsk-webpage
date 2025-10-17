@@ -126,7 +126,7 @@ main {
 }
 
 .box:hover p {
-    color: rgb(255, 61, 93);
+    color: rgb(61, 200, 255);
 }
 
 .box.activities a {

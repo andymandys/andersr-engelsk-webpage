@@ -11,7 +11,7 @@
 header {
     display: flex;
     justify-content: center;
-
+    background-color: rgba(0, 0, 0, 0.329);
     border-bottom: 5px solid white;
 }
 
@@ -60,13 +60,15 @@ main {
     width: 100%;
     grid-column: span 2;
     border-radius: 15px;
+    text-align: center;
+    background-color: rgba(154, 197, 235, 0.253);
 }
 
 .box2 {
    border: solid black 2px;
     height: 100%;
     width: 100%;
-     background-image: url(Bilder/panda.jpg);
+     background-image: url(Bilder/YellowFlower.jpg);
      background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -79,6 +81,9 @@ main {
     width: 100%;
     grid-column: 2 / 4;
     border-radius: 15px;
+    text-align: center;
+    background-color: rgba(154, 197, 235, 0.253);
+    backdrop-filter: blur(5px);
 }
 
 .box4 {
@@ -87,7 +92,7 @@ main {
     width: 100%;
     grid-column: 1 / 2;
     grid-row: 2 / 2;
-    background-image: url(Bilder/flamingo.jpg);
+    background-image: url(Bilder/Political\ image.jpg);
      background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -100,6 +105,8 @@ main {
     grid-column: span 2;
     grid-row: 3 / 3;
     border-radius: 15px;
+    background-color: rgba(154, 197, 235, 0.253);
+    text-align: center;
 }
 
 .box6 {
@@ -107,11 +114,36 @@ main {
     height: 100%;
     width: 100%;
     grid-row: 3 / 3;
-    background-image: url(Bilder/Ai\ skilpadde.webp);
+    background-image: url(Bilder/National\ par.webp);
      background-size: cover;
     background-position: center;
     border-radius: 15px;
 }
+
+
+.box7 {
+    border: solid black 2px;
+    height: 100%;
+    width: 100%;
+    grid-column: 2 / 4;
+    grid-row: 4 / 4;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(154, 197, 235, 0.253);
+    backdrop-filter: blur(5px);
+}
+
+.box8 {
+   border: solid black 2px;
+    height: 100%;
+    width: 100%;
+    grid-row: 4 / 4;
+     background-image: url(Bilder/funfacts\ image.jpeg);
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
 
 
 header {

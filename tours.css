@@ -21,15 +21,77 @@ header {
     text-align: center;
     flex: 1;
 }
+
+
+.outdooradventures {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-template-rows: repeat(1, 500px);  
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.adventure1 {
+    border: solid black 2px;
+    border-radius: 15px;
+}
+
+.adventure2 {
+    border: solid black 2px;
+    border-radius: 15px;
+
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(1, 500px);  
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.experienceItem {
+    border: solid black 2px;
+    border-radius: 15px;
+    transition: transform 0.05s ease-in-out;
+    text-align: center;
+    padding: 20px;             
+    box-sizing: border-box;    
+    word-wrap: break-word;  
+}
+
+.experienceItem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+
+.toptext {
+    text-align: center;
+    background-color: aliceblue;
+}
 .meny1 {
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
     text-decoration: none;
     margin: 0 5rem;
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .meny1:hover {
     text-decoration: underline;
+}
+
+.experienceItem img {
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    object-fit: cover;
 }
