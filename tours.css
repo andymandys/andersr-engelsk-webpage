@@ -91,7 +91,7 @@ header {
 
 .experienceItem img {
     width: 80%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 7;
     border-radius: 10px;
     object-fit: cover;
 }

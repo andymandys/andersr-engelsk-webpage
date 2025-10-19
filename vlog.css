@@ -1,0 +1,20 @@
+.buttons {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+a:hover {
+    background-color: #b59f86;
+}

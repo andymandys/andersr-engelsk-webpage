@@ -24,7 +24,7 @@ header {
     font-weight: bold;
     color: white;
     text-align: center;
-    flex: 1;
+    
 }
 
 .meny1 {
@@ -67,7 +67,7 @@ main {
     justify-content: center;
     align-items: center;
 
-    overflow: hidden;
+    
 
     text-decoration: none;
 
@@ -113,8 +113,6 @@ main {
     text-decoration: none;
     font-size: 2rem;
     filter: drop-shadow(2px 2px 4px black);
-
-    pointer-events: none;
 }
 
 .box:hover a {
@@ -129,7 +127,7 @@ main {
     color: rgb(61, 200, 255);
 }
 
-.box.activities a {
+.box.vlog a {
     background-image: url(Bilder/Attractionshawaii.jpg);
 }
 
