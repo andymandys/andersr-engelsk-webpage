@@ -7,6 +7,7 @@
 
     padding: 20px;
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -26,7 +27,7 @@ header {
 .outdooradventures {
     display: grid;
     grid-template-columns: repeat(2, 700px);
-    grid-template-rows: repeat(1, 500px);  
+    grid-template-rows: repeat(1, 500px);
     gap: 20px;
     padding: 20px;
     justify-content: center;
@@ -47,7 +48,7 @@ header {
 .experience {
     display: grid;
     grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(1, 500px);  
+    grid-template-rows: repeat(1, 500px);
     gap: 20px;
     padding: 20px;
     justify-content: center;
@@ -60,14 +61,14 @@ header {
     border-radius: 15px;
     transition: transform 0.05s ease-in-out;
     text-align: center;
-    padding: 20px;             
-    box-sizing: border-box;    
-    word-wrap: break-word;  
+    padding: 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
 }
 
 .experienceItem:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -76,6 +77,11 @@ header {
     text-align: center;
     background-color: aliceblue;
 }
+
+body.darkmode .toptext {
+    background: linear-gradient(135deg, #1a1a1a, #333333);
+}
+
 .meny1 {
     font-size: 1.5rem;
     color: white;
